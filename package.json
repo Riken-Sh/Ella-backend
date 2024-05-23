@@ -1,0 +1,30 @@
+{
+  "name": "ellapvt-server",
+  "private": false,
+  "version": "1.0.1",
+  "author": {
+    "name": "Yash Rajput",
+    "email": "yash.rajpt@proton.me",
+    "url": "https://www.ellagpt.me/"
+  },
+  "repository": {
+    "url": "https://github.com/Riken-sh/ella-backend"
+  },
+  "scripts": {
+    "start": "node Server",
+    "dev": "nodemon Server"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "nodemon": "^3.0.1",
+    "python-shell": "^5.0.0",
+    "socket.io": "^4.7.1",
+    "xss": "^1.0.14",
+    "xss-clean": "^0.1.4"
+  }
+}
